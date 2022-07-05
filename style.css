@@ -1,95 +1,15 @@
 body {
     display: flex;
     flex-direction: column;
-    border: 2px dashed palevioletred;
-    padding: 0 400px;
-    height: 100vh;
     width: auto;
-}
-
-img {
-    height: 200px;
-    width: auto;
-    border: 2px solid blue;
-    text-align: center;
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 a {
     text-decoration: none;
-}
-
-.header {
-    display: flex;
-    align-items: center;
-    border: 1px dashed red;
-}
-
-.title {
-    border: 1px dashed blue;
-    display: flex;
-    gap: 40px;
-    flex: 1;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.title-heading {
-font-size: 55px;
-font-weight: 700;
-}
-
-.title-text{
-    width: 400px;
-    font-size: 20px;
-}
-
-.title-subtext {
-    font-size: 16px;
-}
-
-.title-image {
-    width: 600px;
-    height: 200px;
-    margin: 20px 0;
-    background-color: grey;
-    color: white;
-}
-
-.start-here {
-    margin: 20px 0;
-}
-.text {
-    width: 200px;
-}
-
-.body {
-    display: flex;
-    flex: 1;
-    border: 1px dashed purple;
-    text-align: center;
-    flex-direction: column;
-    padding: 40px;
-}
-.body-content {
-    display: flex;
-    flex: 1;
-    justify-content: space-around;
-}
-
-.body-header {
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-.body-item {
-    width: 100px;
-    height: 100px;
-    border: 1px solid blue;
-}
-
-.body-text {
-    display: flex;
-    justify-content: space-around; 
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 ul {
@@ -100,33 +20,168 @@ ul {
     justify-content: end;
 }
 
+.logo {
+    font-weight: 900;
+    font-size: 18px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 10px 400px;
+}
+
+.title {
+    display: flex;
+    gap: 40px;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 100px 400px;
+}
+
+.title-heading {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.title-text{
+    width: 400px;
+    font-size: 20px;
+}
+
+.title-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.title-image {
+    width: 600px;
+    height: 250px;
+    background-color: rgb(104, 112, 116);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-here {
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+    border: 3px #E5E7EB;
+}
+.text {
+    width: 150px;
+}
+
+.body {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    flex-direction: column;
+    padding: 40px 400px;
+}
+.body-content {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 100px;
+}
+
+.body-text {
+    display: flex;
+    justify-content: center;
+    gap: 105px;
+    margin: 20px;
+}
+
+.body-header {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    color: #1F2937;
+}
+
+.body-item {
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(64, 120, 241);
+    border-radius: 10px;
+}
+
+
 .testimonials {
     display: flex;
-    border: 1px dashed orange;
     flex: 1;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 100px 400px;
 }
 
 .quote {
-    font-style: italic;
-    font-size: 30px;
-    border: 1px dashed grey;
-    width: 75%;
+    font-style:italic;
+    font-weight: lighter;
+    font-size: 36px;
+    width: 800px;
+    color: #1F2937;
   }
 
   .quote-author {
-    font-size: 18px;
-    border: 1px dashed grey;
+    font-size: 26px;
+    font-weight: 400;
+    width: 80%;
+    text-align: right;
+    color: #1F2937;
   }
 
 .CTA {
     flex: 1;
-    border: 1px dashed grey;
+    padding: 100px 400px;
+    
+}
+
+.CTA-box {
+    border-radius: 10px;
+    padding: 50px;
+    background-color: #3882f6;
+    color:#F9FAF8;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.CTA-text-container {
+}
+
+.CTA-text {
+    font-size: 24px;
+}
+
+
+.sign-up {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 50px;
+    color: #F9FAF8;
+    border: 2px solid white;
+    background-color: #3882f6;
+    border-radius: 10px;
+
 }
 
 .footer {
-    border: 1px dashed turquoise;
     display: flex;
     justify-content: center;
+    padding: 30px 400px;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
